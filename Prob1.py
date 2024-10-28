@@ -12,7 +12,7 @@ def create_histogram_array(data: list[int]) -> list[int]:
 
 
 #1b
-def print_histogram(hist: list[int]) -> None:
+def print_histogram(hist: list[int]) -> None: 
     for index, count in enumerate(hist):
         print(f"{index}: {'*' * count}") # showing in astricks 
 
